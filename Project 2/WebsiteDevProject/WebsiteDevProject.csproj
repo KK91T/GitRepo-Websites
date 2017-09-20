@@ -80,6 +80,12 @@
     <Content Include="Images\Hathayoga.jpg" />
     <Content Include="Images\Isha-Hatha-School-of-Yoga-Logo.png" />
     <Content Include="Images\whatisyoga.jpg" />
+    <Content Include="Images\yoga10.jpg" />
+    <Content Include="Images\yoga11.jpg" />
+    <Content Include="Images\yoga12.jpg" />
+    <Content Include="Images\yoga8.jpg" />
+    <Content Include="Images\yoga9.jpg" />
+    <Content Include="Images\yogap1.png" />
     <Content Include="index.aspx" />
     <Content Include="Styles\styles.css" />
     <Content Include="Web.config" />
