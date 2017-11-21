@@ -1,42 +1,28 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="WebsiteDevProject._default" %>
+<%@ Register Src="siteNav.ascx" TagPrefix="uc1" TagName="siteNav" %>
+
 
 <!DOCTYPE html>
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Amitaay Yoga</title>
-  <link rel="stylesheet" type="text/css" href="Styles/styles.css" media="screen">
-
-
-
-</head>
-
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Amitaay Yoga</title>
+    <meta name="keywords" content="Inner Transformation, Yoga Center, Yoga Retreats, spiritual growth, Hatha Yoga, Yogasanas" />
+    <meta name="description" content="Amitaay Yoga Offers Yoga Programs for Inner Transformation &amp; Personal Growth.Program components include guided meditations and teaching of the sacred Hatha Yoga practices" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="Styles/styles.css" media="screen" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    </head>
+    
 <body style="background-image:url(Images/yogap1.png)">
-<header>
-  <hgroup>
+    
+    <form id="form1" runat="server">
+        
+<div class="container-fluid home-middle">
+    
+    <uc1:siteNav runat="server" ID="siteNav" />
 
-    <h1>Amitaay Yoga</h1>
-    <h2>A scientific approach to inner well being</h2>
-<h3>We offer Kriya and Hatha yoga programs devised and offered by Sadhguru</h3> 
-  </hgroup>
-  
-  <nav>
-    <ul>
-       <li><a href="#"> Home</a></li>
-       <li><a href="#"> Our Teachers</a></li>
-       <li><a href="#"> Programs</a></li>
-       <li><a href="#"> About Us</a></li>
-       <li><a href="#"> Contact Us</a></li>
-     </ul>
-   </nav>
-
-
-</header>
 <section>
-
-
-
 <article>
 
 <h2>What Is Yoga?</h2>
@@ -51,7 +37,7 @@
 
 
 <figure>
-  <img src="Images/whatisyoga.jpg" width="1000" height="500" alt ="What Is Yoga? by Sadhguru">
+  <img src="Images/whatisyoga.jpg" width="1000" height="500" alt ="What Is Yoga? by Sadhguru" />
   <figcaption> Sadhguru | Mahashivarathri 2015
   </figcaption>
 </figure>
@@ -65,7 +51,7 @@
 
 – Sadhguru
 </article>
-<br>
+<br />
 
 <article>
 
@@ -74,7 +60,7 @@
 <p>“Essentially,  once  we  use  the  word “yoga”  attached  to anything,  it indicates  in the  tradition  that  it  is  a complete path by itself. “Hatha” has the word  “yoga” attached  to  it because Hatha Yoga is a complete path by itself.  If it is a complete path by itself, how it should  be  approached  is  the question.  If it was just a simple practice, you can approach  it one  way.  If  it  was  an exercise you could have approached it another  way.  If  it  was  an  art  form  it could  be  approached another  way.  Or if  it  is  just  entertainment,  it  could  be approached another way.</p>
 
 <figure>
-  <img src="Images/Hathayoga.jpg"  width="1000" height="500" alt ="Participants Practising Angamardhana">
+  <img src="Images/Hathayoga.jpg"  width="1000" height="500" alt ="Participants Practising Angamardhana" />
   <figcaption>Participants Practising Angamardana, a fitness system rooted in yoga, offers everyone the opportunity to invigorate the body and reach peak physical and mental health.
   </figcaption>
 </figure>
@@ -90,27 +76,27 @@
 <h3>5 Distinct Yoga Practices are Offered</h3>
 
 <ol>
-<li><h3>Upayoga</h3><br>
+<li><h3>Upayoga</h3><br/>
 is a simple yet powerful set of 10 practices that activate the joints, muscles and energy system, bringing ease to the whole system.</li>
 
-<li><h3>Angamardana</h3><br>
+<li><h3>Angamardana</h3><br />
 is a series of 30 processes to invigorate the body, and reach peak physical fitness and mental health.</li>
 
 <li><h3>Suryakriya</h3><br>
 is a potent 21-step yogic practice of tremendous antiquity, designed as a holistic process for health and inner wellbeing.</li>
 
-<li><h3>Yogasanas</h3><br>
+<li><h3>Yogasanas</h3><br />
 are a set of powerful postures through which one can elevate one’s consciousness and manipulate energies.</li>
 
-<li><h3>Bhuta Shuddhi</h3><br>
+<li><h3>Bhuta Shuddhi</h3><br />
 means “purification of the elements,” and is a process of purifying the 5 elements within the human system.</li>
 </ol>
 
-<br>
+<br/>
 
 Prior Isha Yoga programs are not prerequisites to attend this program. Anyone interested is welcome.
-<br>
-<br>
+<br />
+<br />
 <h3><a href="#">Upcoming Hatha Yoga programs</a></h3>
 
 </article>
@@ -128,9 +114,9 @@ Prior Isha Yoga programs are not prerequisites to attend this program. Anyone in
 <p>It  is  Sadhguru’s  vision  to  revive  this  ancient  science  in  all  its  purity  and  make  it available to every individual. As a step towards realizing this vision, he has devised the Hatha  Yoga  Teacher  Training  Program.  Here,  Hatha  Yoga  will  be  taught  not  just  for theoretical understanding, but as a living experience. Upon completion of the program, trainees  will  have  the  privilege  and  fulfillment  of  bringing  this  knowledge  to  many more.</p>
 
 <aside>
-<br>
+<br />
 &lt;!DOCTYPE html&gt;
-<br>
+<br />
 <p>Testing - HTML Encoding, Aside Tag (Content not realted to website and will be removed after project review) </p>
 </aside>
 
@@ -139,18 +125,18 @@ Prior Isha Yoga programs are not prerequisites to attend this program. Anyone in
 
 <h3>Contact Us</h3>
 
-Phone (India)<br>
+Phone (India)<br />
 +91-9677052138(Whatsapp)
-<br>
-<br>
+<br />
+<br />
 
-Phone (United States)<br>
-+1-3024422122<br>
+Phone (United States)<br />
++1-3024422122<br />
 +1-3035536778
 
-<br>
-<br>
-Email <br>
+<br />
+<br />
+Email <br />
 info@Amitaayyoga.com
 
 
@@ -175,27 +161,13 @@ info@Amitaayyoga.com
 
 <figure>
 
-<a href="http://www.ishayoga.org/hata/teachertraining/"><img src="Images/Isha-Hatha-School-of-Yoga-Logo.png" alt ="Isha Hatha School of Yoga"></a>   
+<a href="http://www.ishayoga.org/hata/teachertraining/"><img src="Images/Isha-Hatha-School-of-Yoga-Logo.png" alt ="Isha Hatha School of Yoga"/></a>   
 </figure>
-
 </section>
-
-
-<footer>
-<br>
-
-
-  <nav>
-    <ul>
-       <li><a href="#"> Home</a></li>
-       <li><a href="#"> Our Teachers</a></li>
-       <li><a href="#"> Programs</a></li>
-       <li><a href="#"> About Us</a></li>
-       <li><a href="#"> Contact Us</a></li>
-     </ul>
-   </nav>
-<small>Copyright © 2017-2019 Karikalan Rajendran</small>
-
-</footer>
-</body>
+    
+    </div>
+        </form>
+    <script src="Scripts/jquery-3.2.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+            </body>    
 </html>
