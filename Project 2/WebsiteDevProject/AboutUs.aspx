@@ -6,7 +6,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Amitaay yoga and its goals</title>
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="Styles/styles.css" media="screen" />
     <meta name="keywords" content="Inner Transformation, Yoga Center, Yoga Retreats, spiritual growth, Hatha Yoga, Yogasanas" />
