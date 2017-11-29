@@ -6,6 +6,16 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110382130-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110382130-1');
+</script>
+
     <title>Amitaay Yoga</title>
     <meta name="keywords" content="Inner Transformation, Yoga Center, Yoga Retreats, spiritual growth, Hatha Yoga, Yogasanas" />
     <meta name="description" content="Amitaay Yoga Offers Yoga Programs for Inner Transformation &amp; Personal Growth.Program components include guided meditations and teaching of the sacred Hatha Yoga practices" />

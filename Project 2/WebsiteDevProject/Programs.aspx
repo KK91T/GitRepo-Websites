@@ -6,6 +6,16 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110382130-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110382130-1');
+</script>
+
     <title>Programs offered by Amitaay yoga</title>
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="Styles/styles.css" media="screen" />

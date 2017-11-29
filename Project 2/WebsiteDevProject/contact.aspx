@@ -6,6 +6,16 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110382130-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110382130-1');
+</script>
+
     <title>Contact Us - Contact Details for Amityaa Yoga</title>    
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="Styles/styles.css" media="screen" />
@@ -19,8 +29,10 @@
             <uc1:siteNav runat="server" ID="siteNav" />
             <section>
                 <h3>Amitaay Yoga Location</h3>
-                <p>Denver Yoga Studio<br/>Rocky Mountain Foothills<br/>13th Gorge St<br/>Denver – 8012 ,Colorado ; United States<br/>Telephone:+1-302-442-2122<br/>E-mail:&nbsp;<a href="mailto:info@amitaayyoga.com">info@amitaayyoga.com</a></p>
-                <p></p>
+                <p>Denver Yoga Studio<br/>Rocky Mountain Foothills<br/>1540 Big Thompson Ave, Estes Park, <br/>Colorado 80517 ; United States<br/>Telephone:+1-302-442-2122<br/>E-mail:&nbsp;<a href="mailto:info@amitaayyoga.com">info@amitaayyoga.com</a></p>
+                <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6078.415507326589!2d-105.50113226893457!3d40.38208790334884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876966062f1ebb51%3A0xd4ded3e4b294570a!2s1540+Big+Thompson+Ave%2C+Estes+Park%2C+CO+80517!5e0!3m2!1sen!2sus!4v1511990902428" width="600" height="450" frameborder="0" style="border:2" allowfullscreen></iframe>
+                </div>
                 <h2>Institutional Programs Queries</h2>
                 <p>To organize Hatha Yoga classes at your workplace, organisations or schools please contact us on<br/><a href="mailto:yoga@amitaayyoga.com">yoga@amitaayyoga.com</a><br/>Phone: +1-302-442-2132</p>
                 <div style="padding-top: 5px; padding-bottom: 5px;"><a class="button" href="" target="_blank">Ask a Question</a></div><br/>
@@ -166,9 +178,11 @@
 </tr>
 </tbody>
 </table>
+           
             </section>
             
         </div>
+       
         
     </form>
     <script src="Scripts/jquery-3.2.1.js"></script>
