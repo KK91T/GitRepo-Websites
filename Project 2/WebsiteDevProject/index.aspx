@@ -111,7 +111,7 @@ means “purification of the elements,” and is a process of purifying the 5 el
 Prior Isha Yoga programs are not prerequisites to attend this program. Anyone interested is welcome.
 <br>
 <br>
-<h3><a href="#">Upcoming Hatha Yoga programs</a></h3>
+<h3><a href="Schedule.aspx">Upcoming Hatha Yoga programs</a></h3>
 
 </article>
 
@@ -198,4 +198,8 @@ info@Amitaayyoga.com
 
 </footer>
 </body>
+    <br />
+    <br />
+
+
 </html>

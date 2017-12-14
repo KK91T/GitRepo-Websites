@@ -15,11 +15,11 @@
 
   gtag('config', 'UA-110382130-1');
 </script>
-
+    
     <title>Amitaay yoga and its goals</title>
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="Styles/styles.css" media="screen" />
-    <meta name="keywords" content="Inner Transformation, Yoga Center, Yoga Retreats, spiritual growth, Hatha Yoga, Yogasanas" />
+    <meta name="keywords" content="About Amitaay yoga, Amitaay yoga Mission,  Amitaay yoga Programs, Isha Hatha Yoga, Isha Hatha Yoga Teacher Training" />
     <meta name="description" content=" With various centers around United States and India. Amityaa yoga center is headquartered at the foothills of Rocky Mountain, Colorado, US" />
 </head>
 <body style="background-image:url(Images/yogap1.png)">
@@ -38,14 +38,18 @@
                 <p>Tailored to suit individuals from every social and cultural background, Amitaay Yoga provides powerful tools for inner exploration. Whatever your need may be, we has a solution for you.</p><br/>
                 <div class="x-video embed with-container">
                     <div class="x-video-inner">
-                        <iframe src="https://www.youtube.com/embed/gK5Rl2v-OpQ" data-lazy-src="https://www.youtube.com/embed/gK5Rl2v-OpQ" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen" class="     lazyloaded"></iframe>
-
+                        <iframe src="https://www.youtube.com/embed/gK5Rl2v-OpQ" data-lazy-src="https://www.youtube.com/embed/gK5Rl2v-OpQ" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen" class="     lazyloaded" "></iframe>
+                        <br />
+                        <br />
+                        
                     </div>
 
                 </div>
 
             </div>  
                 </section>
+            <br />
+            <br />
         </div>        
     </form>
     <script src="Scripts/jquery-3.2.1.js"></script>

@@ -17,7 +17,7 @@
 </script>
 
     <title>Amitaay Yoga</title>
-    <meta name="keywords" content="Inner Transformation, Yoga Center, Yoga Retreats, spiritual growth, Hatha Yoga, Yogasanas" />
+    <meta name="keywords" content="Inner Transformation, Amitaay Yoga, Yoga, Denver Yoga, Yoga Studio Denver, Yoga Center, Yoga Retreats, spiritual growth, Hatha Yoga, Yogasanas, " />
     <meta name="description" content="Amitaay Yoga Offers Yoga Programs for Inner Transformation &amp; Personal Growth.Program components include guided meditations and teaching of the sacred Hatha Yoga practices" />
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="Styles/styles.css" media="screen" />
@@ -70,7 +70,7 @@
 <p>“Essentially,  once  we  use  the  word “yoga”  attached  to anything,  it indicates  in the  tradition  that  it  is  a complete path by itself. “Hatha” has the word  “yoga” attached  to  it because Hatha Yoga is a complete path by itself.  If it is a complete path by itself, how it should  be  approached  is  the question.  If it was just a simple practice, you can approach  it one  way.  If  it  was  an exercise you could have approached it another  way.  If  it  was  an  art  form  it could  be  approached another  way.  Or if  it  is  just  entertainment,  it  could  be approached another way.</p>
 
 <figure>
-  <img src="Images/Hathayoga.jpg"  width="1000" height="500" alt ="Participants Practising Angamardhana" />
+  <img src="Images/Hathayoga.jpg"  width="1000" alt ="Participants Practising Angamardhana"/>
   <figcaption>Participants Practising Angamardana, a fitness system rooted in yoga, offers everyone the opportunity to invigorate the body and reach peak physical and mental health.
   </figcaption>
 </figure>
@@ -107,7 +107,7 @@ means “purification of the elements,” and is a process of purifying the 5 el
 Prior Isha Yoga programs are not prerequisites to attend this program. Anyone interested is welcome.
 <br />
 <br />
-<h3><a href="#">Upcoming Hatha Yoga programs</a></h3>
+<h3><a href="Schedule.aspx">Upcoming Hatha Yoga programs</a></h3>
 
 </article>
 
@@ -122,13 +122,6 @@ Prior Isha Yoga programs are not prerequisites to attend this program. Anyone in
 <p>Classical yoga comprises various methods to elevate and purify one’s energies and raise one’s perception to its peak.  Today, however,  the  refined  tools  of  classical  yoga have  been  largely  lost  or  grossly  distorted  due  to  socio‐cultural  misunderstandings that  have  accumulated  over  many  centuries. Only  in  a  very  few  places,  the  classical system endures with its full vibrancy and sanctity.  Moreover, access to this system has been  traditionally  reserved  for  the  bold  seekers  and  monks  who  devote  their entire lives to spiritual sadhana and austerity.</p>
 
 <p>It  is  Sadhguru’s  vision  to  revive  this  ancient  science  in  all  its  purity  and  make  it available to every individual. As a step towards realizing this vision, he has devised the Hatha  Yoga  Teacher  Training  Program.  Here,  Hatha  Yoga  will  be  taught  not  just  for theoretical understanding, but as a living experience. Upon completion of the program, trainees  will  have  the  privilege  and  fulfillment  of  bringing  this  knowledge  to  many more.</p>
-
-<aside>
-<br />
-&lt;!DOCTYPE html&gt;
-<br />
-<p>Testing - HTML Encoding, Aside Tag (Content not realted to website and will be removed after project review) </p>
-</aside>
 
 </article>
 
@@ -180,4 +173,6 @@ info@Amitaayyoga.com
     <script src="Scripts/jquery-3.2.1.js"></script>
     <script src="Scripts/bootstrap.js"></script>
             </body>    
+     <br />
+     <br />
 </html>

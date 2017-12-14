@@ -18,6 +18,7 @@
                     <li><a href="Programs.aspx">Programs</a></li>                    
                     <li><a href="AboutUs.aspx">About Us</a></li>                   
                     <li><a href="contact.aspx">Contact Us</a></li>
+                    <li><a href="Schedule.aspx">Schedule</a></li>
 </ul>
             </div>
         

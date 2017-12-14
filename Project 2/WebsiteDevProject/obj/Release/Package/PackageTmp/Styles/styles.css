@@ -108,4 +108,17 @@ aside {
 small {
     margin-left: 600px;
 }
+ListView1_itemPlaceholderContainer.element.style {
+    padding-left: 50px;
+    background-color: burlywood;
+}
 
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}

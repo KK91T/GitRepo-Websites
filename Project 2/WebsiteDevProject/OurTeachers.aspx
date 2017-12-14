@@ -19,7 +19,7 @@
     <title>Teacher Finder</title>
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="Styles/styles.css" media="screen" />
-    <meta name="keywords" content="Inner Transformation, Yoga Center, Yoga Retreats, spiritual growth, Hatha Yoga, Yogasanas" />
+    <meta name="keywords" content="Hatha Yoga Teachers, Yoga Teacher, Yoga Teacher Denver, Isha Hatha Yoga Teachers, Hatha Yoga Trained Teacher, Yogasana Teachers, Yoga Teachers, Amitaay yoga Teachers" />
     <meta name="description" content=" list of trained and certified yoga teachers of amityaa yoga; trained by isha school of hatha yoga" />
 </head>
 <body style="background-image:url(Images/yogap1.png)">
@@ -66,7 +66,7 @@
       <tr>
         <td>Email Id </td>
         <td>:</td>
-        <td><a href="mailto:Jdasdourian@gmail.com">Jdasdourian@gmail.com</a></td>
+        <td><a href="https://accounts.google.com/signin" target="_blank">Jdasdourian@gmail.com</a></td>
       </tr>
             <tr>
                 <td>Phone Number </td>
@@ -111,7 +111,7 @@
       <tr>
         <td>Email Id </td>
         <td>:</td>
-        <td><a href="mailto:jyothsna_kiran@yahoo.com">jyothsna_kiran@yahoo.com</a></td>
+        <td><a href="https://accounts.google.com/signin" target="_blank">jyothsna_kiran@yahoo.com</a></td>
       </tr>
             <tr>
                 <td>Phone Number </td>
@@ -156,7 +156,7 @@
       <tr>
         <td>Email Id </td>
         <td>:</td>
-        <td><a href="mailto:taquichantay@gmail.com">taquichantay@gmail.com</a></td>
+        <td><a href="https://accounts.google.com/signin" target="_blank">taquichantay@gmail.com</a></td>
       </tr>
             <tr>
                 <td>Phone Number </td>
@@ -201,7 +201,7 @@
       <tr>
         <td>Email Id </td>
         <td>:</td>
-        <td><a href="mailto:Cris@vasuki.xyz">Cris@vasuki.xyz</a></td>
+        <td><a href="https://accounts.google.com/signin" target="_blank">Cris@vasuki.xyz</a></td>
       </tr>
             <tr>
                 <td>Phone Number </td>
@@ -245,7 +245,7 @@
       <tr>
         <td>Email Id </td>
         <td>:</td>
-        <td><a href="mailto:deeptha.jagannathan@gmail.com">deeptha.jagannathan@gmail.com</a></td>
+        <td><a href="https://accounts.google.com/signin" target="_blank">deeptha.jagannathan@gmail.com</a></td>
       </tr>
             <tr>
                 <td>Phone Number </td>
@@ -289,7 +289,7 @@
       <tr>
         <td>Email Id </td>
         <td>:</td>
-        <td><a href="mailto:geetha.m.raju@gmail.com">geetha.m.raju@gmail.com</a></td>
+        <td><a href="https://accounts.google.com/signin" target="_blank">geetha.m.raju@gmail.com</a></td>
       </tr>
             <tr>
                 <td>Phone Number </td>
@@ -310,4 +310,6 @@
     <script src="Scripts/jquery-3.2.1.js"></script>
     <script src="Scripts/bootstrap.js"></script>
 </body>
+     <br />
+     <br />
 </html>

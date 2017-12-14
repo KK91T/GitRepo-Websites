@@ -84,7 +84,8 @@ section {
 img {
     margin: 0px 0px 10px 10px;
     box-shadow: 3px 3px 5px 1px #4d2e00;
-}
+   }
+
 
 figcaption {
     margin-left: 50px;
@@ -108,4 +109,17 @@ aside {
 small {
     margin-left: 600px;
 }
+ListView1_itemPlaceholderContainer.element.style {
+    padding-left: 50px;
+    background-color: burlywood;
+}
 
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}

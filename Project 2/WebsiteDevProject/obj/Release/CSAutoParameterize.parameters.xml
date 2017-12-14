@@ -1,2 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters />
+<parameters>
+  <parameter name="Amitaay-yoga-sqlDBConnectionString-Web.config Connection String" description="Amitaay-yoga-sqlDBConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=amitaay-yoga-sqlserver.database.windows.net;Initial Catalog=Amitaay-yoga-sqlDB;Persist Security Info=True;User ID=RajendranK;Password=Obmlet345" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Websites\\GitRepo-Websites\\Project\ 2\\WebsiteDevProject\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Amitaay-yoga-sqlDBConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

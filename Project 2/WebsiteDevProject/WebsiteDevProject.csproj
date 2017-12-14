@@ -88,6 +88,7 @@
     <Content Include="Images\icon1.png" />
     <Content Include="OurTeachers.aspx" />
     <Content Include="Programs.aspx" />
+    <Content Include="Schedule.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.2.1.intellisense.js" />
@@ -118,6 +119,7 @@
     <Content Include="index.aspx" />
     <Content Include="siteNav.ascx" />
     <Content Include="Styles\styles.css" />
+    <Content Include="Video\Angamardhana - The Ultimate Fitness Session  Isha Hata Yoga.mp4" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -164,6 +166,13 @@
       <DependentUpon>Programs.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Schedule.aspx.cs">
+      <DependentUpon>Schedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Schedule.aspx.designer.cs">
+      <DependentUpon>Schedule.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
