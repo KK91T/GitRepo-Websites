@@ -28,46 +28,6 @@
 
             
             
-                <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConflictDetection="CompareAllValues" ConnectionString="<%$ ConnectionStrings:Amitaay-yoga-sqlDBConnectionString %>" DeleteCommand="DELETE FROM [Schedule] WHERE [ProgramID] = @original_ProgramID AND [Program] = @original_Program AND [Start Date] = @original_Start_Date AND [End Date] = @original_End_Date AND [Time] = @original_Time AND [Fee] = @original_Fee AND [Venue] = @original_Venue AND [Teacher] = @original_Teacher" InsertCommand="INSERT INTO [Schedule] ([ProgramID], [Program], [Start Date], [End Date], [Time], [Fee], [Venue], [Teacher]) VALUES (@ProgramID, @Program, @Start_Date, @End_Date, @Time, @Fee, @Venue, @Teacher)" OldValuesParameterFormatString="original_{0}" SelectCommand="SELECT [ProgramID], [Program], [Start Date] AS Start_Date, [End Date] AS End_Date, [Time], [Fee], [Venue], [Teacher] FROM [Schedule]" UpdateCommand="UPDATE [Schedule] SET [Program] = @Program, [Start Date] = @Start_Date, [End Date] = @End_Date, [Time] = @Time, [Fee] = @Fee, [Venue] = @Venue, [Teacher] = @Teacher WHERE [ProgramID] = @original_ProgramID AND [Program] = @original_Program AND [Start Date] = @original_Start_Date AND [End Date] = @original_End_Date AND [Time] = @original_Time AND [Fee] = @original_Fee AND [Venue] = @original_Venue AND [Teacher] = @original_Teacher">
-                    <DeleteParameters>
-                        <asp:Parameter Name="original_ProgramID" Type="String" />
-                        <asp:Parameter Name="original_Program" Type="String" />
-                        <asp:Parameter Name="original_Start_Date" Type="String" />
-                        <asp:Parameter Name="original_End_Date" Type="String" />
-                        <asp:Parameter DbType="Time" Name="original_Time" />
-                        <asp:Parameter Name="original_Fee" Type="Decimal" />
-                        <asp:Parameter Name="original_Venue" Type="String" />
-                        <asp:Parameter Name="original_Teacher" Type="String" />
-                    </DeleteParameters>
-                    <InsertParameters>
-                        <asp:Parameter Name="ProgramID" Type="String" />
-                        <asp:Parameter Name="Program" Type="String" />
-                        <asp:Parameter Name="Start_Date" Type="String" />
-                        <asp:Parameter Name="End_Date" Type="String" />
-                        <asp:Parameter DbType="Time" Name="Time" />
-                        <asp:Parameter Name="Fee" Type="Decimal" />
-                        <asp:Parameter Name="Venue" Type="String" />
-                        <asp:Parameter Name="Teacher" Type="String" />
-                    </InsertParameters>
-                    <UpdateParameters>
-                        <asp:Parameter Name="Program" Type="String" />
-                        <asp:Parameter Name="Start_Date" Type="String" />
-                        <asp:Parameter Name="End_Date" Type="String" />
-                        <asp:Parameter DbType="Time" Name="Time" />
-                        <asp:Parameter Name="Fee" Type="Decimal" />
-                        <asp:Parameter Name="Venue" Type="String" />
-                        <asp:Parameter Name="Teacher" Type="String" />
-                        <asp:Parameter Name="original_ProgramID" Type="String" />
-                        <asp:Parameter Name="original_Program" Type="String" />
-                        <asp:Parameter Name="original_Start_Date" Type="String" />
-                        <asp:Parameter Name="original_End_Date" Type="String" />
-                        <asp:Parameter DbType="Time" Name="original_Time" />
-                        <asp:Parameter Name="original_Fee" Type="Decimal" />
-                        <asp:Parameter Name="original_Venue" Type="String" />
-                        <asp:Parameter Name="original_Teacher" Type="String" />
-                    </UpdateParameters>
-                </asp:SqlDataSource>
-                <br />
                 <h1 style=" font-size:350%">Upcoming Hatha Yoga programs</h1>
                 <hr style="border-color:black; border-style: inset; border-width: 1px;"/>
                 <br />
@@ -187,6 +147,9 @@
                             <li runat="server" id="itemPlaceholder" />
                         </ul>
                         
+                        <div style="">
+                        </div>
+                        
                     </LayoutTemplate>
                     <SelectedItemTemplate>
                         <li style="">Program:
@@ -213,6 +176,7 @@
                         </li>
                     </SelectedItemTemplate>
                 </asp:ListView>
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Amitaay-yoga-sqlDBConnectionString %>" SelectCommand="SELECT [Program], [Start Date] AS Start_Date, [End Date] AS End_Date, [Time], [Fee], [Venue], [Teacher] FROM [Schedule]"></asp:SqlDataSource>
                 <br />
                 <p> The above section is list view using data-bound values from SQL Database and its implemented from Toolbox drag and drop option</p>
                 <br />
@@ -235,7 +199,45 @@
                         <asp:BoundField DataField="Teacher" HeaderText="Teacher" SortExpression="Teacher" />
                     </Columns>
                 </asp:GridView>
-                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Amitaay-yoga-sqlDBConnectionString %>" SelectCommand="SELECT [Program], [Start Date] AS Start_Date, [End Date] AS End_Date, [Time], [Fee], [Venue], [Teacher] FROM [Schedule]"></asp:SqlDataSource>
+                <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConflictDetection="CompareAllValues" ConnectionString="<%$ ConnectionStrings:Amitaay-yoga-sqlDBConnectionString %>" DeleteCommand="DELETE FROM [Schedule] WHERE [ProgramID] = @original_ProgramID AND [Program] = @original_Program AND [Start Date] = @original_Start_Date AND [End Date] = @original_End_Date AND [Time] = @original_Time AND [Fee] = @original_Fee AND [Venue] = @original_Venue AND [Teacher] = @original_Teacher" InsertCommand="INSERT INTO [Schedule] ([ProgramID], [Program], [Start Date], [End Date], [Time], [Fee], [Venue], [Teacher]) VALUES (@ProgramID, @Program, @Start_Date, @End_Date, @Time, @Fee, @Venue, @Teacher)" OldValuesParameterFormatString="original_{0}" SelectCommand="SELECT [ProgramID], [Program], [Start Date] AS Start_Date, [End Date] AS End_Date, [Time], [Fee], [Venue], [Teacher] FROM [Schedule]" UpdateCommand="UPDATE [Schedule] SET [Program] = @Program, [Start Date] = @Start_Date, [End Date] = @End_Date, [Time] = @Time, [Fee] = @Fee, [Venue] = @Venue, [Teacher] = @Teacher WHERE [ProgramID] = @original_ProgramID AND [Program] = @original_Program AND [Start Date] = @original_Start_Date AND [End Date] = @original_End_Date AND [Time] = @original_Time AND [Fee] = @original_Fee AND [Venue] = @original_Venue AND [Teacher] = @original_Teacher">
+                    <DeleteParameters>
+                        <asp:Parameter Name="original_ProgramID" Type="String" />
+                        <asp:Parameter Name="original_Program" Type="String" />
+                        <asp:Parameter Name="original_Start_Date" Type="String" />
+                        <asp:Parameter Name="original_End_Date" Type="String" />
+                        <asp:Parameter Name="original_Time" Type="String" />
+                        <asp:Parameter Name="original_Fee" Type="Decimal" />
+                        <asp:Parameter Name="original_Venue" Type="String" />
+                        <asp:Parameter Name="original_Teacher" Type="String" />
+                    </DeleteParameters>
+                    <InsertParameters>
+                        <asp:Parameter Name="ProgramID" Type="String" />
+                        <asp:Parameter Name="Program" Type="String" />
+                        <asp:Parameter Name="Start_Date" Type="String" />
+                        <asp:Parameter Name="End_Date" Type="String" />
+                        <asp:Parameter Name="Time" Type="String" />
+                        <asp:Parameter Name="Fee" Type="Decimal" />
+                        <asp:Parameter Name="Venue" Type="String" />
+                        <asp:Parameter Name="Teacher" Type="String" />
+                    </InsertParameters>
+                    <UpdateParameters>
+                        <asp:Parameter Name="Program" Type="String" />
+                        <asp:Parameter Name="Start_Date" Type="String" />
+                        <asp:Parameter Name="End_Date" Type="String" />
+                        <asp:Parameter Name="Time" Type="String" />
+                        <asp:Parameter Name="Fee" Type="Decimal" />
+                        <asp:Parameter Name="Venue" Type="String" />
+                        <asp:Parameter Name="Teacher" Type="String" />
+                        <asp:Parameter Name="original_ProgramID" Type="String" />
+                        <asp:Parameter Name="original_Program" Type="String" />
+                        <asp:Parameter Name="original_Start_Date" Type="String" />
+                        <asp:Parameter Name="original_End_Date" Type="String" />
+                        <asp:Parameter Name="original_Time" Type="String" />
+                        <asp:Parameter Name="original_Fee" Type="Decimal" />
+                        <asp:Parameter Name="original_Venue" Type="String" />
+                        <asp:Parameter Name="original_Teacher" Type="String" />
+                    </UpdateParameters>
+                </asp:SqlDataSource>
                 <br />
                 <p> [ After Project evaluation, the above GridView section would be created as an seperate page for office and teachers use ]</p>
                 <br />
